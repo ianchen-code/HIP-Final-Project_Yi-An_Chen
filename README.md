@@ -34,6 +34,9 @@ Neuroscan, 64 channels, sampling rate 1000Hz
 An Event-Related Potential Study on Function Graphs and Equation Transformation Abilities in Mathematically Gifted Senior High School Students
 
 
+<img width="1252" height="402" alt="image" src="https://github.com/user-attachments/assets/835127f8-9ae2-4d07-bf49-b9a5023f6696" />
+
+
 
 
 
