@@ -1,1 +1,3 @@
-# HIP Final Project 陳奕安
+# EEG-Based Stage Classification in Mathematical Problem Solving
+
+
