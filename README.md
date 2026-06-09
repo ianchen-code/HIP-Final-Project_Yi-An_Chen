@@ -36,6 +36,10 @@ An Event-Related Potential Study on Function Graphs and Equation Transformation 
 
 <img width="1252" height="402" alt="image" src="https://github.com/user-attachments/assets/835127f8-9ae2-4d07-bf49-b9a5023f6696" />
 
+The test consists of 60 items, comprising 30 items with correct answers and 30 items with incorrect answers. All items were designed with a two-stage structure: the first stage required students to read a function graph (S1), while the second stage presented an equation and asked students to judge, based on the function graph from the first stage, whether the given equation was correct (S2). The function graphs and equations included in the test items cover mathematical content that high school students have studied. The trial sequence began with a 1000 ms fixation period, followed by a 2000 ms function graph reading stage (S1). After a brief 1000 ms inter-stimulus interval, the task proceeded to a 5000 ms function graph and equation transformation stage (S2), and concluded with a final 1000 ms inter-stimulus interval.
+
+Each trial was cropped for 2 seconds from the onset of Stage 1 and Stage 2. The segments were then labeled into two different groups, designated for binary classification using EEGNet and a Random Forest Classifier.
+
 
 
 
