@@ -21,3 +21,9 @@ For the random forest classifier, several features were extracted from the EEG s
 4. FFT-based spectral coherence was estimated between the same six electrode pairs across the five frequency bands, yielding an additional 30 features (6 pairs × 5 bands). Coherence quantifies the degree of linear synchrony between spatially separated neural populations and serves as an index of functional connectivity between frontal and posterior cortical regions. Such fronto-posterior coupling is associated with the integration of visual-perceptual and executive processing resources during complex mathematical cognition.
 5. Hjorth parameters—activity, mobility, and complexity—were computed per channel, contributing 3 × N_ch features. Given that gifted students have been reported to exhibit distinct patterns of cortical activity during representational transformation tasks, Hjorth parameters provide a complementary time-domain characterisation of these differences without requiring explicit frequency decomposition.
 
+## Data Source & Technical Parameters
+**Data Source**
+Literature citations where the data originates: 
+https://drive.google.com/file/d/1cHMTxjyj0Bh8gJpWKe3aP9n0DZ9PKlBa/view?usp=sharing
+
+
