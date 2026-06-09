@@ -40,6 +40,20 @@ The test consists of 60 items, comprising 30 items with correct answers and 30 i
 
 Each trial was cropped for 2 seconds from the onset of Stage 1 and Stage 2. The segments were then labeled into two different groups, designated for binary classification using EEGNet and a Random Forest Classifier.
 
+## Data Preprocessing & Quality Control
+**Visual Inspection & Artifact Identification: Include clear screenshots of your
+raw data identifying specific biological or environmental artifacts (such as eye
+blinks, muscle activity/EMG, sweat/baseline drift, or 50/60 Hz line noise).**
+<img width="1266" height="784" alt="image" src="https://github.com/user-attachments/assets/c8cb4035-80fb-417b-bd06-87e4ce1bdf9e" />
+
+
+**Spectral & Time-Series Proof: Provide clear plots showing both the Time-Series
+Signal and the Power Spectral Density (PSD) before and after your preprocessing
+pipeline (e.g., after applying bandpass filters and artifact removal techniques).**
+<img width="1266" height="744" alt="image" src="https://github.com/user-attachments/assets/1f8ced74-31cc-45ec-8208-3972a9acd73d" />
+
+
+
 
 
 
