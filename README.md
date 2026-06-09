@@ -50,7 +50,17 @@ blinks, muscle activity/EMG, sweat/baseline drift, or 50/60 Hz line noise).**
 **Spectral & Time-Series Proof: Provide clear plots showing both the Time-Series
 Signal and the Power Spectral Density (PSD) before and after your preprocessing
 pipeline (e.g., after applying bandpass filters and artifact removal techniques).**
-<img width="1266" height="744" alt="image" src="https://github.com/user-attachments/assets/1f8ced74-31cc-45ec-8208-3972a9acd73d" />
+<img width="2084" height="1330" alt="image" src="https://github.com/user-attachments/assets/83875430-b658-44e2-b1e4-abdab2b7466d" />
+
+Initial Input: Raw EEG data containing 67 channels sampled at a frequency of 1000 Hz.
+Step 1: Drop Trigger Channel: The trigger channel is removed from the dataset, leaving only the signal channels.
+Step 2: Average Re-reference: The data is re-referenced to the average of all channels to reduce global noise.
+Step 3: Bandpass Filter: A Finite Impulse Response (FIR) filter is applied between 1 – 50 Hz. This removes DC drift (low frequencies) and electromyogram/muscle noise (high frequencies).
+Step 4: Notch Filter: A notch filter is applied specifically at 60 Hz to eliminate electrical interference from the powerline.
+Step 5: Independent Component Analysis (ICA): The FastICA algorithm is run to extract 20 components. The identified Electrooculogram (EOG/eye blink) components are excluded and removed from the data.
+Final Output: Cleaned EEG data, now reduced to 66 channels.
+
+
 
 
 
