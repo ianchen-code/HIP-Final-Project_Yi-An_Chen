@@ -24,9 +24,11 @@ For the random forest classifier, several features were extracted from the EEG s
 ## Data Source & Technical Parameters
 **Data Source** 
 Literature citations where the data originates: 
-https://drive.google.com/file/d/1cHMTxjyj0Bh8gJpWKe3aP9n0DZ9PKlBa/view?usp=sharing
+https://drive.google.com/file/d/1cHMTxjyj0Bh8gJpWKe3aP9n0DZ9PKlBa/view?usp=sharing 
+
 **Recording Device**
 Neuroscan, 64 channels, sampling rate 1000Hz
+
 **Original Purpose**
 An Event-Related Potential Study on Function Graphs and Equation Transformation Abilities in Mathematically Gifted Senior High School Students
 
