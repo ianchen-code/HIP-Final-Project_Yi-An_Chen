@@ -22,14 +22,15 @@ For the random forest classifier, several features were extracted from the EEG s
 5. Hjorth parameters—activity, mobility, and complexity—were computed per channel, contributing 3 × N_ch features. Given that gifted students have been reported to exhibit distinct patterns of cortical activity during representational transformation tasks, Hjorth parameters provide a complementary time-domain characterisation of these differences without requiring explicit frequency decomposition.
 
 ## Data Source & Technical Parameters
-**Data Source** 
+**Data Source:** 
+
 Literature citations where the data originates: 
 https://drive.google.com/file/d/1cHMTxjyj0Bh8gJpWKe3aP9n0DZ9PKlBa/view?usp=sharing 
 
-**Recording Device**
+**Recording Device:**
 Neuroscan, 64 channels, sampling rate 1000Hz
 
-**Original Purpose**
+**Original Purpose:**
 An Event-Related Potential Study on Function Graphs and Equation Transformation Abilities in Mathematically Gifted Senior High School Students
 
 
