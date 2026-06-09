@@ -81,9 +81,11 @@ pipeline (e.g., after applying bandpass filters and artifact removal techniques)
 <img width="966" height="714" alt="image" src="https://github.com/user-attachments/assets/fe1db3bd-8b59-4f45-bc07-c5523ad7b84c" />
 
 **Interpretation**
+
 **1. Random Forest (Accuracy: 65%)**
 The RF subject-normalised model classifies whether an EEG epoch belongs to the function graph reading stage (S1) or the function graph-to-equation transformation stage (S2). The model correctly identified 59.9% of S1 epochs (3,956 correct, 2,651 misclassified) and 70.5% of S2 epochs (4,843 correct, 2,024 misclassified), yielding a balanced accuracy of approximately 65%. The bias toward S2 classification aligns with the paper's finding that S2 elicits substantially stronger neural responses — the model may be picking up on the generally elevated ERP amplitudes characteristic of the cognitively demanding transformation stage.
 The feature importance plot strongly supports this interpretation. Alpha and beta power at central and centroparietal electrodes (C3, C4, CP3, C6) dominate the top features, consistent with the paper's report of significantly higher P100 and P300 amplitudes during S2 across all students. The prominence of frontal-central beta (FC1, FC3, FC4) reflects the executive processing demands of equation verification, while Hjorth parameters at temporal-frontal sites (FT7, F7) capture the complexity of cross-representational cognitive operations. The coh_theta_C3_C4 feature suggests bilateral synchrony differences between stages also carry discriminative information.
+
 **2. EEGNet (Accuracy: 74%)**
 EEGNet shows considerably stronger performance: 5,043 S1 epochs and 4,899 S2 epochs classified correctly, with an estimated balanced accuracy of approximately 72–74%. The more symmetric confusion matrix — especially the improved S1 recall compared to RF — indicates that EEGNet's learned spatiotemporal filters better capture the subtler neural signatures of the graph-reading stage, which the paper notes produces lower but still meaningful ERP activity.
 
