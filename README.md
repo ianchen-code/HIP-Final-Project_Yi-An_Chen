@@ -71,8 +71,7 @@ pipeline (e.g., after applying bandpass filters and artifact removal techniques)
 ## Analytical Results & Interpretation
 
 **Random Forest Classification Results**
-<img width="500" height="734" alt="image" src="https://github.com/user-attachments/assets/edc09419-f32a-4b1e-b838-f1db8d18f686" />
-
+<img width="1015" height="734" alt="image" src="https://github.com/user-attachments/assets/9ba624ea-16da-42d3-a1e5-33ced280d97b" />
 
 <img width="1485" height="1243" alt="image" src="https://github.com/user-attachments/assets/7bb09e82-70cd-4e74-b1ab-23e3d736a317" />
 
@@ -80,6 +79,9 @@ pipeline (e.g., after applying bandpass filters and artifact removal techniques)
 
 **EEGNet Classification Results**
 <img width="966" height="714" alt="image" src="https://github.com/user-attachments/assets/fe1db3bd-8b59-4f45-bc07-c5523ad7b84c" />
+
+**Interpretation**
+
 
 
 
