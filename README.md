@@ -1,1 +1,1 @@
-# Human-Information-Processing---Final-Project-Author-
+# HIP Final Project 陳奕安
