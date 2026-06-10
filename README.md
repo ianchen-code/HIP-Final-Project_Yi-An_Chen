@@ -68,6 +68,10 @@ pipeline (e.g., after applying bandpass filters and artifact removal techniques)
 
 ## End-to-End Analysis Pipeline Demo Video
 
+Demo Video:
+
+https://drive.google.com/file/d/1XSR6YxZl8DeJ6p_qnGAJ9TtwDVhJ8dcF/view?usp=sharing
+
 ## Analytical Results & Interpretation
 
 **Random Forest Classification Results**
